@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.contner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.head h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.newsbody{
+    margin: auto;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.box{
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid #888888b2;
+}
+
+.box:hover{
+    border: none;
+    box-shadow: 1px 0px 7px 1px #888888b2;
+}
+
+#newstitle{
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Poiret One', cursive;
+}
+
+#news{
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
