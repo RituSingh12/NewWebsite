@@ -1,7 +1,7 @@
 const key="93dbe975910a47949b694c849cbc46ed"
 const url=`http://newsapi.org/v2/top-headlines?country=in&apiKey=${key}`;
 
-/*
+
 // faching data by xmlhttprequest method
 const xhr=new XMLHttpRequest();
 
@@ -27,8 +27,8 @@ xhr.onload=function(){
 xhr.onerror=()=>{console.log("network error")}
 
 xhr.send()
-*/
 
+/*
 // fatching data by fetch method
 fetch(url)
 .then((response)=>{
@@ -54,3 +54,4 @@ fetch(url)
 .catch((error)=>{
     console.log(error);
 })
+*/
